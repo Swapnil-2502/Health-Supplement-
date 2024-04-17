@@ -1,4 +1,17 @@
+.is-sticky {
+  /* Add styles for sticky navbar here */
+  transition: top 0.3s ease-in-out;
+  top: 0;
+  animation-delay: 1000ms;
+}
 
+.relative {
+  overflow: hidden;
+}
+
+.transform {
+  transition: transform 0.3s ease;
+}
 
 .bgcolor{
     background-color: rgb(53, 53, 53);
