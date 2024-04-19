@@ -63,6 +63,7 @@
     
 </head>
 <body>
+
     <header>
           
         <div  id="above-navbar" class="z-100 relative flex overflow-x-hidden bgcolor text-white">
@@ -80,18 +81,18 @@
 
         <nav id="main-navbar" class="fixed z-50 flex items-center w-[100%] shadow-lg bg-white">
 
-                <div class="py-2 pl-16 ">
-                    <img class="h-16" src="images/logo.jpeg" alt="">
+                <div class="py-2 pl-12 ">
+                    <img class="h-20" src="images/logo.jpeg" alt="">
                 </div>
 
                 <div class="nav-links duration-500 xl:static xl:min-h-fit absolute min-h-[50vh] left-0 top-[-575%] xl:w-auto w-full flex items-center px-5 pl-10 bg-white">
-                    <ul class="flex xl:items-center xl:flex-row flex-col xl:gap-[3vw] gap-8">
-                        <li><a href="#" class="hover:underline font-gt-walsheim-pro">Home</a></li>
-                        <li><a href="#" class="hover:underline font-gt-walsheim-pro">About Us</a></li>
+                    <ul class="flex xl:items-center xl:flex-row flex-col xl:gap-[2vw] gap-8">
+                        <li><a href="./index.html" class="hover:underline font-gt-walsheim-pro">Home</a></li>
+                        <li><a href="#" class="hover:underline font-gt-walsheim-pro">Our Story</a></li>
                         <li><a href="#" class="hover:underline font-gt-walsheim-pro">Products</a></li>
                         <li><a href="#" class="hover:underline font-gt-walsheim-pro">Quality and Safety</a></li>
                         <li><a href="#" class="hover:underline font-gt-walsheim-pro">Our Blog</a></li>
-                        <li><a href="#" class="hover:underline font-gt-walsheim-pro">Contact Us</a></li>
+                        <li><a href="./contactus.html" class="hover:underline font-gt-walsheim-pro">Contact Us</a></li>
                         <li><a href="#" class="font-gt-walsheim-pro border-spacing-44">
                             <span class="border-solid border-stone-600 rounded p-2 bg-stone-200 hover:bg-stone-300" style="border-width: 1px;animation: blink 3s infinite;">Apply for Wholesale <i class="fa-solid fa-arrow-right"></i></span>
                         </a></li>
@@ -103,6 +104,8 @@
                     <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-facebook-f text-2xl"></i></a>
                     <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-brands fa-instagram text-2xl"></i></i></a>
                     <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-linkedin-in text-2xl"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fa-regular fa-envelope text-2xl"></i></a>
                 </div>
 
                 <div class="flex items-center pr-5 md:space-x-6">            
@@ -144,7 +147,7 @@
     
 
     <!-- carousel -->
-    <div class="swiper mySwiper mt-20">
+    <div class="swiper mySwiper mt-24">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img class="w-[100%] h-60 md:h-80 " src="./images/s1.jpg" alt=""></div>
           <div class="swiper-slide"><img class="w-[100%] h-60 md:h-80" src="./images/s2.jpg" alt=""></div>
@@ -154,7 +157,6 @@
     </div>
 
     <!-- After carousel part -->
-
     <div class="py-10">
         <div class="text-center justify-center">
             <h1 class=" md:text-3xl font-gt-walsheim-pro font-bold">India's Trusted & Leading Source for Bulk Supply</h1>
@@ -295,19 +297,27 @@
 
 
     <!-- Banner -->
-    <div class="container-fluid my-20 px-5 bg-yellow-500">
-        <div class="container py-16">
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-6">
+    <div class="container-fluid my-10 px-5 md:my-20" style="background-color: #b58500;">
+        <div class="container py-8 md:py-16">
+            <div class="flex flex-col-reverse md:flex-row md:items-center justify-center md:justify-between">
+                <div class="md:w-1/2">
                     <div class="py-4">
-                        <h1 class="text-4xl md:text-8xl text-white px-5 font-bold">Fit Mind, Fit Body</h1>
-                        <p class="text-4xl md:text-8xl text-slate-500 px-5">in Our Store</p>
-                        <p class="px-5 text-dark pt-5">The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+                        <h3 class="px-5 text-left md:text-left" style="font-size:20px">Our Commitment To You</h3>
+                        <h1 class="text-5xl md:text-5xl text-white px-5 text-left md:text-left">Ethical Sourcing of the highest quality herbs, spices, oils and teas.</h1>
+                        
+                        <p class="px-5 text-dark pt-5 text-left">✔ 100% Satisfaction Guarantee</p>
+                        <p class="px-5 text-dark pt-5 text-left">✔ #1 Supplier of Organic Herbs in USA</p>
+                        <p class="px-5 text-dark pt-5 text-left">✔ Trusted Quality Since 1975</p>
+                        <p class="px-5 text-dark pt-5 text-left">✔ Free Shipping on Retail Orders $75+</p>
                     </div>
+                </div>
+                <div>
+                    <img class="rounded-md mx-auto md:mx-0 overflow-visible " src="./images/posterImg.webp" alt="">
                 </div>
             </div>
         </div>
     </div>
+    
 
     <!-- All products -->
     <div class="container-fluid my-20 px-5">
@@ -504,10 +514,6 @@
      <!-- Tastimonial Start -->
     
 
-
-     
-
-   
      <!-- Footer Start -->
     <div class="bg-gray-900 text-gray-50 py-10 mt-10">
         <div class="container mx-auto">
@@ -530,7 +536,9 @@
                   <a class="btn btn-outline-secondary me-2 btn-md-square rounded-full text-2xl" href="#"><i class="fab fa-facebook-f"></i></a>
                   <a class="btn btn-outline-secondary me-2 btn-md-square rounded-full text-2xl" href="#"><i class="fa-brands fa-instagram"></i></i></a>
                   <a class="btn btn-outline-secondary btn-md-square rounded-full text-2xl" href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+                  <a class="btn btn-outline-secondary btn-md-square rounded-full text-2xl" href="#"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+                  <a class="btn btn-outline-secondary btn-md-square rounded-full text-2xl" href="#"><i class="fa-regular fa-envelope text-2xl"></i></a>
+                </div> 
               </div>
             </div>
           </div>
