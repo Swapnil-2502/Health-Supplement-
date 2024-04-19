@@ -281,3 +281,27 @@ WHY US
             
         </nav>
     </header>
+
+    <!-- After header poster -->
+    <!-- <div class="md:h-96 py-10 md:py-20 flex flex-col md:flex-row justify-center items-center md:justify-between position:relative pt-24 md:pt-60 md:mb-10">
+        <div class="pl-3 md:pl-16 text-center md:text-left bg-white">
+            <div class="text-3xl md:text-5xl pt-5 md:pt-10 font-gt-walsheim-pro font-bold">India's No1. Health Supplement Brand</div>
+
+            <div class="flex">
+                <div class="pl-6 md:pl-0 w-40 md:w-48 pt-5 mx-auto md:mx-0">
+                    <img src="images/23337.jpg" alt="Supplement" class="w-full">
+                </div>
+                <div class="flex items-center md:pl-16 ">
+                    <div class="pt-3 md:pt-10 text-amber-500 font-gt-walsheim-pro">100% Certified Products   
+                        <div class="text-black text-center md:text-left md:max-w-lg font-gt-walsheim-pro">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>   
+                </div>
+            </div>
+           
+            
+        </div>
+        <div class="mt-5 md:mt-0">
+            <img class="p-4 md:pr-9 py-5 img-fluid" src="images/vitamin.jpg" alt="Vitamin">
+        </div>
+    </div> -->

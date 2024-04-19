@@ -16,6 +16,19 @@
 .bgcolor{
     background-color: rgb(53, 53, 53);
 }
+
+@keyframes blink {
+  0% {
+      background-color: lightgreen;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: lightgreen;
+  }
+}
+
 @keyframes marquee {
     0% { transform: translateX(0%); }
     100% { transform: translateX(-100%); }
