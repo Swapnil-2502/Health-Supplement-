@@ -305,3 +305,97 @@ WHY US
             <img class="p-4 md:pr-9 py-5 img-fluid" src="images/vitamin.jpg" alt="Vitamin">
         </div>
     </div> -->
+
+
+     <!-- Footer Start -->
+    <div class="bg-gray-900 text-gray-50 py-10 mt-10">
+        <div class="container mx-auto">
+          <div class="border-b border-yellow-500 pb-4 mb-4">
+            <div class="ml-4 md:ml-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div class="col-span-1 lg:col-span-1">
+                <a href="#" class="text-yellow-500">
+                  <h1 class="text-3xl font-semibold mb-1">Akta Chem</h1>
+                  <p class="text-sm">Gift of Purity</p>
+                </a>
+              </div>
+              <div class="col-span-1 md:col-span-2 lg:col-span-1 mt-4 md:mt-0">
+                <div class="relative">
+                  <input class="w-full bg-gray-800 text-gray-100 rounded-full px-4 py-3 focus:outline-none" type="email" placeholder="Your Email">
+                  <button type="submit" class="absolute top-0 right-0 bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-4 py-3 rounded-full">Subscribe Now</button>
+                </div>
+              </div>
+              <div class="col-span-1 lg:col-span-1 mt-4 md:mt-0">
+                <div class="flex justify-center md:justify-end gap-4">
+                  <a class="btn btn-outline-secondary me-2 btn-md-square rounded-full text-2xl" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-secondary me-2 btn-md-square rounded-full text-2xl" href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                  <a class="btn btn-outline-secondary btn-md-square rounded-full text-2xl" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-outline-secondary btn-md-square rounded-full text-2xl" href="#"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+                  <a class="btn btn-outline-secondary btn-md-square rounded-full text-2xl" href="#"><i class="fa-regular fa-envelope text-2xl"></i></a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="ml-4 md:ml-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="col-span-1 md:col-span-1 lg:col-span-1">
+              <div class="footer-item">
+                <h4 class="text-lg font-semibold mb-3">Why People Like Us!</h4>
+                <p class="mb-4">Typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                <a href="#" class="btn btn-secondary py-2 px-4 rounded-full block w-full">Read More</a>
+              </div>
+            </div>
+            <div class="ml-4 md:ml-0 col-span-1 md:col-span-1 lg:col-span-1">
+              <div class="footer-item">
+                <h4 class="text-lg font-semibold mb-3">Shop Info</h4>
+                <a href="#" class="btn-link block mb-2">About Us</a>
+                <a href="#" class="btn-link block mb-2">Contact Us</a>
+                <a href="#" class="btn-link block mb-2">Privacy Policy</a>
+                <a href="#" class="btn-link block mb-2">Terms & Condition</a>
+                <a href="#" class="btn-link block mb-2">Return Policy</a>
+                <a href="#" class="btn-link block mb-2">FAQs & Help</a>
+              </div>
+            </div>
+            <div class="ml-4 md:ml-0 col-span-1 md:col-span-1 lg:col-span-1">
+              <div class="footer-item">
+                <h4 class="text-lg font-semibold mb-3">Account</h4>
+                <a href="#" class="btn-link block mb-2">My Account</a>
+                <a href="#" class="btn-link block mb-2">Shop Details</a>
+                <a href="#" class="btn-link block mb-2">Shopping Cart</a>
+                <a href="#" class="btn-link block mb-2">Wishlist</a>
+                <a href="#" class="btn-link block mb-2">Order History</a>
+                <a href="#" class="btn-link block mb-2">International Orders</a>
+              </div>
+            </div>
+            <div class="ml-4 md:ml-0 col-span-1 md:col-span-1 lg:col-span-1">
+              <div class="footer-item">
+                <h4 class="text-lg font-semibold mb-3">Contact</h4>
+                <p>Address: 1429 Netus Rd, DL 440001</p>
+                <p>Email: example@gmail.com</p>
+                <p>Phone: +0123 4567 8910</p>
+                <p>Payment Accepted</p>
+                <img src="img/payment.png" class="mt-2 h-12" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Footer End -->
+      
+
+    <!-- Copyright Section -->
+    <div class="bg-gray-900 py-4">
+        <div class="container mx-auto">
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left mb-3 md:mb-0">
+              <span class="text-gray-200">
+                <a href="#" class="flex items-center">
+                  <i class="fas fa-copyright text-gray-200 me-2"></i>
+                  Akta Chem, All rights reserved.
+                </a>
+              </span>
+            </div>
+            <div class="my-auto text-center md:text-right text-gray-200">
+              Designed By <a href="" class="border-b border-gray-200">ABC Coder</a> Distributed By <a href="" class="border-b border-gray-200">ABCDEFG</a>
+            </div>
+          </div>
+        </div>
+      </div>
