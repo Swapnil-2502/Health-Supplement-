@@ -399,3 +399,53 @@ WHY US
           </div>
         </div>
       </div>
+
+    <!-- <div class="row ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 md:gap-0 px-4 md:px-10 py-6 md:py-16 ">
+                <div class="flex flex-col justify-center items-center h-32">
+                    <img class="w-20 h-20 pr-3" src="images/research.png" alt="">
+                    <div class="pr-8 pt-3">
+                        <p class="text-center font-gt-walsheim-pro">Scientifically Proven</p>
+                        <p class="mt-2 text-center font-poppins">Formulations</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center h-32">
+                    <img class="w-20 h-20 pr-3" src="images/natural.png" alt="">
+                    <div class="pr-8 pt-3">
+                        <p class="text-center font-gt-walsheim-pro">Naturally-Sourced </p>
+                        <p class="mt-2 text-center font-gt-walsheim-pro">Ingredients</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-normal items-center h-32">
+                    <img class="w-20 h-20 pr-3" src="images/wellbeing.png" alt="">
+                    <div class="pr-8 pt-3">
+                        <p class="text-center font-gt-walsheim-pro">Versatile Health</p>
+                        <p class="mt-2 text-center font-gt-walsheim-pro">Benefits</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-normal items-center h-32">
+                    <img class="w-20 h-20 pr-3" src="images/high-quality.png" alt="">
+                    <div class="pr-8 pt-3">
+                        <p class="text-center font-gt-walsheim-pro">Premium Quality</p>
+                        <p class="mt-2 text-center font-gt-walsheim-pro">Products</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- After carousel poster -->
+    <!-- <div class="md:h-96 py-5 md:py-10 flex flex-col md:flex-row justify-center items-center md:justify-between  pt-20 md:mb-10">
+        <div class="pl-3 md:pl-16 text-center md:text-right bg-white">
+            <div class="text-3xl md:text-5xl pt-5 md:pt-10 font-gt-walsheim-pro font-bold">India's No1. Health Supplement Brand</div>
+
+            <div class="flex">
+                <div class="flex items-center md:pl-16 ">
+                    <div class="pt-3 md:pt-10 text-amber-500 font-gt-walsheim-pro">100% Certified Products   
+                        <div class="text-black text-center md:text-left md:max-w-lg font-gt-walsheim-pro">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              
+        </div>
+    </div> -->
