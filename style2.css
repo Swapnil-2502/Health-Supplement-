@@ -22,7 +22,14 @@
     height: 250px;
   }
   
+  .social-icon {
+    color: #3c434d; /* Default color */
+    transition: color 0.3s; /* Smooth transition effect */
+  }
   
+  .social-icon:hover {
+    color: #65b840; /* Green color on hover */
+  }
   
   @keyframes blink {
     0% {

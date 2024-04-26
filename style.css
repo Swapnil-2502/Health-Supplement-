@@ -22,6 +22,19 @@
   height: 250px;
 }
 
+.text-shadow {
+  text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
+.social-icon {
+  color: #3c434d; /* Default color */
+  transition: color 0.3s; /* Smooth transition effect */
+}
+
+.social-icon:hover {
+  color: #65b840; /* Green color on hover */
+}
+
 @keyframes fade-in {
   0% {
       opacity: 0;
