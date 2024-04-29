@@ -451,4 +451,35 @@ WHY US
     </div> -->
 
 
+     <!-- MISSION -->
+    <!-- <div class="container my-10 relative z-0 overflow-hidden py-20">
+        <div class="w-full px-4 sm:px-5 md:px-6  space-y-7 overflow-hidden md:flex flex-col justify-center ml-40">
+            <div class=" max-w-76 pt-7 md:mx-0 md:max-w-100 md:pb-22 md:pt-10  md:text-left">
+                <h2 class="text-3xl text-center">MISSION</h2>
+            </div>
+            <p class="text-center pt-1.5 font-bold md:mx-0 md:pt-3 md:text-3xl flex flex-col">
+                <span>Our mission is to create</span>
+                <span>successful and lasting</span>
+                <span>relationships with our</span>
+                <span>distributors based on</span>
+                <span>trust, reliability and</span>
+                <span>transparency.</span>
+            </p>
+            <div class="absolute inset-y-0 left-0 right-0 -z-10 mb-24 bg-blue-400 md:right-1/2 md:-mr-52 md:mb-0"></div>
+        </div>
+        <div class="inset-y-8 left-1/2 right-0 md:absolute md:-ml-16 md:pb-8 md:pl-20 md:pt-8 items-center">
+            <img class="relative h-full w-full object-cover" src="./images/aqua.jpg" alt="">
+        </div>
+    </div> -->
     
+    <!-- Vision -->
+    <!-- <div class="container md:-w-3/4 gap-5 md:gap-48 mb-10 py-10 bg-slate-100 flex flex-col md:flex-row ">
+        <div class="w-60 h-80 mx-auto md:pl-56 flex items-center justify-center">
+            <img class="w-full h-full object-cover overflow-visible" src="./images/aqua.jpg" alt="">
+        </div>
+        <div class="flex flex-col text-center md:text-left md:pl-60">
+            <h1 class="text-center md:text-left text-3xl font-thin">MISSION</h1>
+            <p class="text-center md:text-left text-xl md:text-4xl font-bold px-10 md:px-0 pt-2">Our mission is to provide premium nutraceuticals and bulk supply solutions, driven by purity, sustainability, and innovation.</p>
+        </div>
+        
+    </div> -->
