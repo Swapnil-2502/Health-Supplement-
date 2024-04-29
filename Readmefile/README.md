@@ -483,3 +483,12 @@ WHY US
         </div>
         
     </div> -->
+
+
+    <div class="container-fluid py-10">
+        <div class="text-center px-5 md:px-20 space-y-3">
+            <h1 class="text-2xl md:text-5xl font-bold font-gt-walsheim">Quality & Safety</h1>
+            <p class="text-base md:text-xl font-bold font-gt-walsheim">We prioritize maintaining excellent quality standards throughout our entire product line. From the initial stages of product development to the final point of sale, quality is ingrained in every aspect of our operations.
+            </p>
+        </div>
+    </div>
