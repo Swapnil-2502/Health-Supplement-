@@ -15,7 +15,7 @@ module.exports = {
 	theme: {
 	  extend: {
 		fontFamily: {
-		  'gt-walsheim': ['"GT Walsheim Pro"', 'sans'],
+			'gt-walsheim': ['GT Walsheim', 'sans-serif'],
 		},
 	  },
 	},
