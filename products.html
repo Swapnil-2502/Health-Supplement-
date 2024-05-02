@@ -90,7 +90,7 @@
                         <li><a href="./ourstory.html" class="hover:underline font-gt-walsheim-pro">Our Story</a></li>
                         <li><a href="./products.html" class="hover:underline font-gt-walsheim-pro">Products</a></li>
                         <li><a href="./quality&safety.html" class="hover:underline font-gt-walsheim-pro">Quality and Safety</a></li>
-                        <li><a href="#" class="hover:underline font-gt-walsheim-pro">Our Blog</a></li>
+                        <li><a href="./blogs.html" class="hover:underline font-gt-walsheim-pro">Our Blog</a></li>
                         <li><a href="./contactus.html" class="hover:underline font-gt-walsheim-pro">Contact Us</a></li>
                         <li><a href="#" class="font-gt-walsheim-pro border-spacing-44">
                             <span class="border-solid border-stone-600 rounded p-2 bg-stone-200 hover:bg-stone-300" style="border-width: 1px;animation: blink 3s infinite;">Apply for Wholesale <i class="fa-solid fa-arrow-right"></i></span>
@@ -163,16 +163,17 @@
             <h1>Shop by:</h1>
             
             <select class="ml-5 text-center rounded-xl border border-black border-thin" id="select-product" onchange="filterProduct()" style="background-color: #65b840;">
-                <option value="optionOne">All</option>
+                <option value="All">All</option>
                 <option value="Wellness for you">Wellness for you</option>
                 <option value="Veterinary Products">Veterinary Products</option>
                 <option value="Aqua Products">Aqua Products</option>
+                <option value="Bulk Supply">Bulk Supply</option>
             </select>
             
          </div>
-        <div class="grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-20 items-center  justify-center pt-8 px-10 md:px-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-20 items-center  justify-center pt-8 px-10 md:px-20">
             
-            <div class="overflow-visible h-96" id="Wellness for you">
+            <div class="cardDisplay overflow-visible h-96" id="Wellness for you">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -184,7 +185,7 @@
                 </div>
             </div>
 
-            <div class="overflow-visible h-96" id="Wellness for you">
+            <div class="cardDisplay overflow-visible h-96" id="Wellness for you">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -196,7 +197,7 @@
                 </div>
             </div>
 
-            <div class="overflow-visible h-96" id="Wellness for you">
+            <div class="cardDisplay overflow-visible h-96" id="Wellness for you">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -208,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="overflow-visible h-96" id="Wellness for you">
+            <div class="cardDisplay overflow-visible h-96" id="Wellness for you">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -220,7 +221,7 @@
                 </div>
             </div>
 
-            <div class="overflow-visible h-96" id="Wellness for you">
+            <div class="cardDisplay overflow-visible h-96" id="Wellness for you">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -232,7 +233,7 @@
                 </div>
             </div>
 
-            <div class="overflow-visible h-96" id="Veterinary Products">
+            <div class="cardDisplay overflow-visible h-96" id="Veterinary Products">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -244,7 +245,7 @@
                 </div>
             </div>
 
-            <div class="overflow-visible h-96" id="Aqua Products">
+            <div class="cardDisplay overflow-visible h-96" id="Aqua Products">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/1_whey_protein.jpg" alt="Product 1">
                 <div class=" pb-9 h-auto pt-4">
                     <div>
@@ -256,17 +257,90 @@
                 </div>
             </div>
 
+            <div class="cardDisplay overflow-visible h-96" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Amla Fruit Powder.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 font-gt-walsheim">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="p-4 text-lg font-semibold mb-2 text-center pt-2 font-gt-walsheim">Amla Fruit Powder</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-96" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Curcumin.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 font-gt-walsheim">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="p-4 text-lg font-semibold mb-2 text-center pt-2 font-gt-walsheim">Curcumin</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-96" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Black Pepper Seeds.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 font-gt-walsheim">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="p-4 text-lg font-semibold mb-2 text-center pt-2 font-gt-walsheim">Black Pepper Seeds</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-96" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Moringa Powder.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 font-gt-walsheim">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="p-4 text-lg font-semibold mb-2 text-center pt-2 font-gt-walsheim">Moringa Powder</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-96" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Pippali.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 font-gt-walsheim">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="p-4 text-lg font-semibold mb-2 text-center pt-2 font-gt-walsheim">Pippali Roots</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-96" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Coffee Seeds.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 font-gt-walsheim">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="p-4 text-lg font-semibold mb-2 text-center pt-2 font-gt-walsheim">Coffee Seeds</h3>
+                    
+                </div>
+            </div>
+
         </div>
     </div>
 
    <script>
-    function filterProducts() {
+    function filterProduct() {
         const selectedCategory = document.getElementById('select-product').value;
-        const products = document.querySelectorAll('.product-item');
-    
+        console.log(selectedCategory); 
+        const products = document.querySelectorAll('.cardDisplay');
+        console.log(products);
         products.forEach(product => {
-            const category = product.getAttribute('data-category');
-            if (selectedCategory === 'All' || category === selectedCategory) {
+            
+            if (product.id === selectedCategory || selectedCategory === 'All') {
                 product.style.display = 'block';
             } else {
                 product.style.display = 'none';
