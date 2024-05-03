@@ -35,6 +35,15 @@
   color: #65b840; /* Green color on hover */
 }
 
+.myElement{
+  background-color: #3c434d; /* Default background color */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.myElement:hover {
+  background-color: #0a9744; /* Background color on hover */
+}
+
 @keyframes fade-in {
   0% {
       opacity: 0;

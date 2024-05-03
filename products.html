@@ -60,6 +60,8 @@
     <script src="./script.js" defer></script>
    
     <title>Akta Chem</title>
+    <link rel="icon" href="./images/aktachem-favicon.png" type="image/x-icon">
+</head>
     
 </head>
 <body>
@@ -81,7 +83,7 @@
         <nav id="main-navbar" class="fixed z-50 flex items-center w-[100%] shadow-lg bg-white">
 
                 <div class="py-2 pl-12 ">
-                    <img class="h-20" src="images/logo.jpeg" alt="">
+                    <a href="./index.html"><img class="h-20" src="images/logo.jpeg" alt=""></a>
                 </div>
 
                 <div class="nav-links duration-500 xl:static xl:min-h-fit absolute min-h-[50vh] left-0 top-[-575%] xl:w-auto w-full flex items-center px-5 pl-10 bg-white">
@@ -149,7 +151,7 @@
         <img class="w-[100%] h-60 md:h-96 object-cover" src="./images/Slider 1.jpg" alt="">
         <div class="absolute inset-0 flex justify-center items-center text-white opacity-0 animate-fade-in delay-500">
             <div class="text-center">
-                <h2 class="text-2xl md:text-5xl shadow-3xl font-bold font-gt-walsheim text-shadow">Products</h2>
+                <h2 class="text-2xl md:text-5xl shadow-3xl font-bold font-gt-walsheim text-shadow">AktaChem Products</h2>
             </div>
         </div>
     </div>
@@ -160,9 +162,9 @@
 
     <div class="container-fluid py-10  px-10 md:px-40 font-gt-walsheim">
         <div class="flex items-center justify-center text-center text-xl ">
-            <h1>Shop by:</h1>
+            <h1>Sort by Category:</h1>
             
-            <select class="ml-5 text-center rounded-xl border border-black border-thin" id="select-product" onchange="filterProduct()" style="background-color: #65b840;">
+            <select class="text-white ml-5 text-center rounded-xl border border-black border-thin p-1 myElement" id="select-product" onchange="filterProduct()">
                 <option value="All">All</option>
                 <option value="Wellness for you">Wellness for you</option>
                 <option value="Veterinary Products">Veterinary Products</option>
@@ -335,9 +337,8 @@
    <script>
     function filterProduct() {
         const selectedCategory = document.getElementById('select-product').value;
-        console.log(selectedCategory); 
         const products = document.querySelectorAll('.cardDisplay');
-        console.log(products);
+       
         products.forEach(product => {
             
             if (product.id === selectedCategory || selectedCategory === 'All') {
