@@ -90,7 +90,7 @@
                         <li><a href="./index.html" class="hover:underline font-gt-walsheim-pro">Home</a></li>
                         <li><a href="./ourstory.html" class="hover:underline font-gt-walsheim-pro">Our Story</a></li>
                         <li><a href="./products.html" class="hover:underline font-gt-walsheim-pro">Products</a></li>
-                        <li><a href="./quality&safety.html" class="hover:underline font-gt-walsheim-pro">Quality and Safety</a></li>
+                        <li><a href="./quality&safety.html" class="hover:underline font-gt-walsheim-pro">Quality & Safety</a></li>
                         <li><a href="#" class="hover:underline font-gt-walsheim-pro">Our Blog</a></li>
                         <li><a href="./contactus.html" class="hover:underline font-gt-walsheim-pro">Contact Us</a></li>
                         <li><a href="#" class="font-gt-walsheim-pro border-spacing-44">
@@ -183,15 +183,118 @@
     </div>
     <!-- h-60 md:h-80 w-[100%] -->
 
+    <div class="text-center justify-center md:hidden mt-5">
+        <h1 class=" md:text-3xl font-gt-walsheim-pro font-bold">India's Trusted & Leading Source for Bulk Supply</h1>
+        <h2 class="text-2xl md:text-5xl font-bold font-gt-walsheim-pro pt-2" style="color: #0a9744;">Organic Herbs & Botanicals</h2>
+        <h3 class="text-base font-gt-walsheim-pro pt-2">Bulk Supply Products for Every Need</h3>
+    </div>
+    <div class="carousel-container md:hidden px-2 py-2 ">
+        
+        <div class="carousel gap-2">
+            
+          <!-- Carousel items -->
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center ">
+                <div class="w-48 h-48 overflow-hidden ">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Amla Fruit Powder.jpg" alt="">
+                </div>
+               
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Amla Fruit Powder </h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Curcumin.jpg" alt="">
+                </div>
+               
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Curcumin</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Black Pepper Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Black Pepper Seeds</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Moringa Powder.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Moringa Powder</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Pippali.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Pippali Roots</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Smooth scrolling behavior
+            document.querySelectorAll('.carousel-item').forEach(item => {
+              item.addEventListener('click', function() {
+                this.scrollIntoView({ behavior: 'smooth' });
+              });
+            });
+          });
+          
+    </script>
+
     <!-- After carousel part -->
-    <div class="py-10">
+    <div class="pt-10 hidden md:block">
         <div class="text-center justify-center">
             <h1 class=" md:text-3xl font-gt-walsheim-pro font-bold">India's Trusted & Leading Source for Bulk Supply</h1>
             <h2 class="text-2xl md:text-5xl font-bold font-gt-walsheim-pro pt-2" style="color: #0a9744;">Organic Herbs & Botanicals</h2>
             <h3 class="text-base font-gt-walsheim-pro pt-2">Bulk Supply Products for Every Need</h3>
         </div>
 
-        <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-6 items-center justify-center pt-8 px-10 md:px-20 gap-4">
+        <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-3 lg:grid-cols-5 items-center justify-center pt-8 px-10 md:px-20 gap-4">
             <div class="flex flex-col justify-center items-center ">
                 <div class="w-48 h-48 overflow-hidden ">
                     <img class="w-full h-full object-cover rounded-lg" src="./images/Amla Fruit Powder.jpg" alt="">
@@ -224,7 +327,30 @@
                 </div>
                 <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Pippali Roots</h3>
             </div>
-            <div class="flex flex-col justify-center items-center">
+
+            <div class="flex flex-col justify-center items-center lg:hidden ">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:hidden">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+            
+            <div class="flex flex-col justify-center items-center lg:hidden">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+            <div class="flex flex-col justify-center items-center lg:hidden">
                 <div class="w-48 h-48 overflow-hidden">
                     <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
                 </div>
@@ -235,16 +361,47 @@
         
     </div>
 
+    <div class="container-fluid hidden lg:grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center pt-8 px-10 md:px-20 lg:px-40 gap-4">
+        <div class="flex flex-col justify-center items-center">
+            <div class="w-48 h-48 overflow-hidden">
+                <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+            </div>
+            <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seedsss
+            </h3>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <div class="w-48 h-48 overflow-hidden">
+                <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+            </div>
+            <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+            </h3>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <div class="w-48 h-48 overflow-hidden">
+                <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+            </div>
+            <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+            </h3>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <div class="w-48 h-48 overflow-hidden">
+                <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+            </div>
+            <h3 class="pt-4 font-gt-walsheim text-base md:text-xl">Coffee Seeds
+            </h3>
+        </div>
+    </div>
+
     
 
-    <!-- Why AktaChem -->
+    <!-- Why Aktachem -->
     <div class="container-fluid my-5 py-10 md:my-14 z-10 pb-7 pt-7 sm:pb-11 sm:pt-11" style="background-image: url('./images/why-aktachem-bg.png');">
         <div class="w-full max-w-[66.5rem] px-4 sm:px-5 md:px-6 mx-auto space-y-4.5 md:space-y-7">
 
        
             <div class="text-center flex flex-col justify-start gap-1.5 px-4 sm:flex-row sm:items-center sm:px-0 md:gap-4 pb-4">
                 
-                <h2 class="text-3xl md:text-5xl font-gt-walsheim-pro font-bold text-left text-white">Why AktaChem?</h2>
+                <h2 class="text-3xl md:text-5xl font-gt-walsheim-pro font-bold text-left text-white">Why Aktachem?</h2>
                 
                 <div class="w-full max-w-2xl text-lg font-light md:text-xl">
                     <p class="max-w-lg text-left text-white">As an industry leader we are aware of our responsibility to provide affordable and sustainable solutions to improve healthcare worldwide.</p>
@@ -328,7 +485,7 @@
     <!-- Products Category -->
     <div class="w-full max-w-[66.5rem] px-4 sm:px-5 md:px-6 mx-auto -mt-1 sm:space-y-10 space-y-7 py-5">
         <div class="relative mx-auto max-w-73 space-y-3 sm:max-w-max">
-            <h2 class="font-bold text-2xl md:text-5xl scroll-mt-22 md:scroll-mt-28 md:text-center text-center" style="color: #0a9744;">AktaChem's Product Categories</h2>
+            <h2 class="font-bold text-2xl md:text-5xl scroll-mt-22 md:scroll-mt-28 md:text-center text-center" style="color: #0a9744;">Aktachem's Product Categories</h2>
             <p class="section-subtitle text-lg font-light md:whitespace-pre-line md:text-xl text-center">We have an extensive and diverse portfolio of superior quality, affordable products.</p>
         </div>
         <div class="grid mx-auto w-fit grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-6 md:gap-8">
@@ -691,7 +848,7 @@
             <img class=" h-10"src="./images/aktachem-fssai.png" alt="">
         </div>
         <div class="pt-5 md:pt-0">
-            <p class="text-center">AktaChem’s fssai license number</p>
+            <p class="text-center">Aktachem’s fssai license number</p>
             <p class="font-bold text-center">13623007000091</p>
             
             <!-- <input class="h-9 w-96 text-center border-solid border-black text-sm" style="border-width: 1px;" placeholder="ENTER YOUR EMAIL TO SIGNUP">
@@ -713,8 +870,8 @@
         <div class="flex gap-2 items-center">
             <div><a class="text-2xl" href=""><i class="fa-solid fa-phone"></i></a></div>
             <div class="font-bold"><p class="text-sm font-gt-walsheim">CALL US</p>
-                <p class="text-sm font-gt-walsheim">800.879.3337</p>
-                <p class="text-sm font-gt-walsheim">Monday - Friday 8am to 4pm PST</p>
+                <p class="text-sm font-gt-walsheim">+91-8008793337</p>
+                <p class="text-sm font-gt-walsheim">Monday - Saturday 09:00 to 17:00 hrs </p>
             </div>
         </div>
         <div class="flex gap-2 items-center">
@@ -726,7 +883,7 @@
         <div class="flex gap-2 items-center">
             <div><a class="text-2xl" href=""><i class="fa-solid fa-comments"></i></a></div>
             <div class="font-bold"><p class="text-sm font-gt-walsheim">LIVE CHAT</p>
-                <p class="text-sm font-gt-walsheim">Monday - Friday 8am to 4pm PST</p>
+                <p class="text-sm font-gt-walsheim">Monday - Saturday 09:00 to 17:00 hrs </p>
             </div>
         </div>
         
@@ -740,7 +897,7 @@
             <li class="hover:underline font-gt-walsheim">Privacy Policy</li>
             <li class="hover:underline font-gt-walsheim">FAQ</li>
         </ul>
-        <p class="text-xs text-center pt-5">© 2024 AktaChem Biotech</p>
+        <p class="text-xs text-center pt-5">© 2024 Aktachem Biotech</p>
      </div>
 
     
