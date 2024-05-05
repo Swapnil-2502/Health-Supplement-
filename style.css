@@ -44,6 +44,19 @@
   background-color: #0a9744; /* Background color on hover */
 }
 
+.carousel-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent items from wrapping */
+}
+
+.carousel-item {
+  display: inline-block; /* Display items in a row */
+  width: calc(50% - 10px);
+  margin-right: 20px; /* Display two items at a time */
+  /* Adjust width as needed based on the number of items you want to display */
+}
+
+
 @keyframes fade-in {
   0% {
       opacity: 0;
