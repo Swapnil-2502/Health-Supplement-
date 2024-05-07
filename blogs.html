@@ -158,68 +158,100 @@
 
     <!-- text below banner -->
     <div class="pt-5 md:pt-10" style="color: #0a9744; font-family: font-gt-walsheim;">
-        <h1 class="px-5 text-2xl md:text-3xl text-center font-thin" >Aktachem is the result of decades of research and learning.</h1>
-        <h1 class="px-5 text-2xl md:text-3xl text-center font-thin " >Over the years, we've made many discoveries and breakthroughs that alter </h1>
-        <h1 class="px-5 text-2xl md:text-3xl text-center font-thin">how we view nature, wellness, and technology. We'd like to share our knowledge with you!</h1>
+        <h1 class="px-5 text-xl md:text-3xl text-center font-thin" >Aktachem is the result of decades of research and learning.</h1>
+        <h1 class="px-5 text-xl md:text-3xl text-center font-thin " >Over the years, we've made many discoveries and breakthroughs that alter </h1>
+        <h1 class="px-5 text-xl md:text-3xl text-center font-thin">how we view nature, wellness, and technology. We'd like to share our knowledge with you!</h1>
     </div>
 
-    <!-- carousel -->
     <div class="swiper mySwiper my-14 ">
         <div class="swiper-wrapper" style="font-family: font-gt-walsheim;">
-          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
-            <img class="w-72 md:w-96 h-60 md:h-80" src="./images/Slider 3.jpeg" alt="">
-            <div class="pt-5" style="color: #0a9744; ">
-                <h1 class="text-base md:text-3xl text-bold" >What can turmeric really do for you ?</h1>  
-                <p class="text-black">Published Date</p>  
-                <p class="text-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit ab tenetur incidunt assumenda obcaecati perferendis recusandae nemo amet mollitia....</p>  
-            </div>
-          </div> 
-          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
-            <img class="w-72 md:w-96 h-60 md:h-80 " src="./images/Slider 2.jpg" alt="">
-            <div class="pt-5" style="color: #0a9744;  ">
-                <h1 class="text-base md:text-3xl text-bold" >What can turmeric really do for you ?</h1>  
-                <p class="text-black">Published Date</p>
-                <p class="text-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit ab tenetur incidunt assumenda obcaecati perferendis recusandae nemo amet mollitia....</p>  
-            </div>
-          </div> 
-          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
-            <img class="w-72 md:w-96 h-60 md:h-80 " src="./images/Slider 1.jpg" alt="">
-            <div class="pt-5" style="color: #0a9744; ">
-                <h1 class="text-base md:text-3xl text-bold" >What can turmeric really do for you ?</h1>  
-                <p class="text-black">Published Date</p>  
-                <p class="text-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit ab tenetur incidunt assumenda obcaecati perferendis recusandae nemo amet mollitia....</p>  
-            </div>
-          </div> 
+
         </div>
-        <!-- Navigation buttons -->
         <div class="swiper-button-prev absolute top-0 left-0 mt-32 md:mt-36 lg:mt-40 ml-3 md:ml-40 lg:ml-80 rounded-full bg-black p-7 text-white"></div>
         <div class="swiper-button-next absolute top-0 right-0 mt-32 md:mt-36 lg:mt-40 mr-3 md:mr-40 lg:mr-80 rounded-full bg-black p-7 text-white"></div>
     </div>
+    <script>
+        fetch('blogs.json')
+            .then(response => response.json())
+            .then(data => {
+                const swiperWrapper = document.querySelector('.swiper-wrapper');
+
+                data.forEach(blog => {
+
+                    const blogSlide = document.createElement('div');
+                    blogSlide.classList.add('swiper-slide', 'relative', 'flex', 'flex-col', 'justify-center', 'items-center', 'bg-gray-100', 'py-10');
+
+                    const image = document.createElement('img');
+                    image.classList.add('w-72', 'md:w-96', 'h-60', 'md:h-80');
+                    image.src = blog.image;
+                    image.alt = blog.title;
+
+                    const contentContainer = document.createElement('div');
+                    contentContainer.classList.add('pt-5');
+                    contentContainer.style.color = '#0a9744';
+
+                    const title = document.createElement('h1');
+                    title.classList.add('text-xl', 'md:text-3xl', 'text-bold', 'md:px-80');
+                    title.textContent = blog.title;
+
+                    const content = document.createElement('p');
+                    content.classList.add('text-black','px-3', 'md:px-96','text-base','md:text-xl');
+                    content.textContent = blog.content;
+
+                    const readMore = document.createElement('a');
+                    readMore.classList.add('underline', 'text-black', 'ReadMore');
+                    readMore.href = '#'; // Add the appropriate href for the read more link
+                    readMore.textContent = 'Read More';
+
+                    contentContainer.append(title, content, readMore);
+                    blogSlide.append(image, contentContainer);
+                    swiperWrapper.appendChild(blogSlide);
+                });
+            })
+            .catch(error => console.error('Error fetching blogs:', error));
+    </script>
+
+   
 
     <!-- More Blogs -->
     <div class="container-fluid py-10">
         <h1 class="text-center text-3xl" style="color: #0a9744">More Blog Articles</h1>
     
-        <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center pt-8 px-10 md:px-60">
-            <div class="bg-white shadow-md overflow-hidden h-auto border border-black ">
+        <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-center pt-8 px-10 md:px-40">
+            <div class="bg-white shadow-md overflow-hidden border border-black ">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9 h-auto pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >What can turmeric really do for you ?</h1>  
-                    <p class="text-black pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit ab tenetur incidunt assumenda obcaecati perferendis recusandae nemo amet mollitia....</p>  
+                <div class="p-4 pb-9 pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Vitamin D3 supplementation along with Cissus quadranengularis and Calcium
+                    </h1>  
+                    <p class="text-black pt-4">These three supplements may work together to provide even greater benefits for bone health, muscle function, and overall well-being....</p> 
+                    <a class="underline text-black ReadMore" href="./blog1.html" >Read More</a>  
                 </div>
             </div>
-            <div class="bg-white shadow-md overflow-hidden h-auto border border-black ">
+            <div class="bg-white shadow-md overflow-hidden border border-black ">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9 h-auto pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >What can turmeric really do for you ?</h1>  
-                    <p class="text-black pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit ab tenetur incidunt assumenda obcaecati perferendis recusandae nemo amet mollitia....</p>  
+                <div class="p-4 pb-9  pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Health benefits of Vitamin C supplementation along with Amla extract and Curcumin
+                    </h1>  
+                    <p class="text-black pt-4">While there is limited research on the specific benefits of taking vitamin C, Amla extract, and curcumin together, some potential benefits include....</p>  
+                    <a class="underline text-black ReadMore" href="" >Read More</a> 
                 </div>
             </div>
-            <div class="bg-white shadow-md overflow-hidden h-auto border border-black ">
+            <div class="bg-white shadow-md overflow-hidden  border border-black ">
                 <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9 h-auto pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >What can turmeric really do for you ?</h1>  
-                    <p class="text-black pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sit ab tenetur incidunt assumenda obcaecati perferendis recusandae nemo amet mollitia....</p>  
+                <div class="p-4 pb-9  pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Chebula/Haritaki along with clove powder health benefits
+                    </h1>  
+                    <p class="text-black pt-4">Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries.It is a fruit of the Terminalia chebula tree...</p> 
+                    <a class="underline text-black ReadMore" href="" >Read More</a>  
+                </div>
+            </div>
+            <div class="bg-white shadow-md overflow-hidden border border-black ">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
+                <div class="p-4 pb-9 pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Probiotics health benefits on Gut Microbiome
+                    </h1>  
+                    <p class="text-black pt-4">Probiotics are live bacteria that offer health benefits when consumed.They are often referred to as "good" or "friendly" bacteria because they help....</p>  
+                    <a class="underline text-black ReadMore" href="" >Read More</a> 
                 </div>
             </div>
         </div>
