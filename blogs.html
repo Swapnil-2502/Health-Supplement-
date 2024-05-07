@@ -163,6 +163,7 @@
         <h1 class="px-5 text-xl md:text-3xl text-center font-thin">how we view nature, wellness, and technology. We'd like to share our knowledge with you!</h1>
     </div>
 
+    <!-- carousel -->
     <div class="swiper mySwiper my-14 ">
         <div class="swiper-wrapper" style="font-family: font-gt-walsheim;">
 
@@ -182,7 +183,7 @@
                     blogSlide.classList.add('swiper-slide', 'relative', 'flex', 'flex-col', 'justify-center', 'items-center', 'bg-gray-100', 'py-10');
 
                     const image = document.createElement('img');
-                    image.classList.add('w-72', 'md:w-96', 'h-60', 'md:h-80');
+                    image.classList.add('w-72', 'md:w-96', 'h-60', 'md:h-80', 'rounded-3xl');
                     image.src = blog.image;
                     image.alt = blog.title;
 
@@ -211,53 +212,72 @@
             .catch(error => console.error('Error fetching blogs:', error));
     </script>
 
-   
-
     <!-- More Blogs -->
     <div class="container-fluid py-10">
         <h1 class="text-center text-3xl" style="color: #0a9744">More Blog Articles</h1>
-    
-        <div class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-center pt-8 px-10 md:px-40">
-            <div class="bg-white shadow-md overflow-hidden border border-black ">
-                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9 pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Vitamin D3 supplementation along with Cissus quadranengularis and Calcium
-                    </h1>  
-                    <p class="text-black pt-4">These three supplements may work together to provide even greater benefits for bone health, muscle function, and overall well-being....</p> 
-                    <a class="underline text-black ReadMore" href="./blog1.html" >Read More</a>  
-                </div>
-            </div>
-            <div class="bg-white shadow-md overflow-hidden border border-black ">
-                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9  pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Health benefits of Vitamin C supplementation along with Amla extract and Curcumin
-                    </h1>  
-                    <p class="text-black pt-4">While there is limited research on the specific benefits of taking vitamin C, Amla extract, and curcumin together, some potential benefits include....</p>  
-                    <a class="underline text-black ReadMore" href="" >Read More</a> 
-                </div>
-            </div>
-            <div class="bg-white shadow-md overflow-hidden  border border-black ">
-                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9  pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Chebula/Haritaki along with clove powder health benefits
-                    </h1>  
-                    <p class="text-black pt-4">Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries.It is a fruit of the Terminalia chebula tree...</p> 
-                    <a class="underline text-black ReadMore" href="" >Read More</a>  
-                </div>
-            </div>
-            <div class="bg-white shadow-md overflow-hidden border border-black ">
-                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
-                <div class="p-4 pb-9 pt-4">
-                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Probiotics health benefits on Gut Microbiome
-                    </h1>  
-                    <p class="text-black pt-4">Probiotics are live bacteria that offer health benefits when consumed.They are often referred to as "good" or "friendly" bacteria because they help....</p>  
-                    <a class="underline text-black ReadMore" href="" >Read More</a> 
-                </div>
-            </div>
+        <div id="blogContainer" class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-center pt-8 px-10 md:px-40">
+
         </div>
     </div>
-    
-    
+    <script>
+        // Fetch data from blogs.json
+            fetch('./blogs.json')
+            .then(response => response.json())
+            .then(data => {
+            const blogContainer = document.getElementById('blogContainer');
+
+            // Loop through the array of blog posts
+            data.forEach(post => {
+                // Create HTML elements for each blog post
+                const blogPost = document.createElement('div');
+                blogPost.className = 'bg-white shadow-md overflow-hidden border border-black rounded-3xl';
+                blogPost.style.height = '100%'
+
+                // Create and append the image
+                const image = document.createElement('img');
+                image.className = 'w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105';
+                image.src = post.image;
+                image.alt = post.title;
+                blogPost.appendChild(image);
+
+                // Create div element for title
+                const titleDiv = document.createElement('div');
+                titleDiv.className = 'p-4 pt-4';
+                const title = document.createElement('h1');
+                title.className = 'font-bold text-black';
+                title.textContent = post.title;
+                titleDiv.appendChild(title);
+
+                // Create div element for content
+                const contentDiv = document.createElement('div');
+                contentDiv.className = 'p-2';
+                const description = document.createElement('p');
+                description.className = 'text-black pt-4';
+                description.textContent = post.content;
+                contentDiv.appendChild(description);
+
+                // Create div element for content
+                const readDiv = document.createElement('div');
+                readDiv.className = 'p-2';
+                const readMore = document.createElement('a');
+                readMore.className = 'underline text-black ReadMore';
+                readMore.href = post.link;
+                readMore.textContent = 'Read More';
+                readDiv.appendChild(readMore);
+          
+
+                blogPost.appendChild(titleDiv);
+                blogPost.appendChild(contentDiv);
+                blogPost.appendChild(readDiv);
+
+                // Append the blog post to the container
+                blogContainer.appendChild(blogPost);
+            });
+            })
+            .catch(error => console.error('Error fetching blog data:', error));
+
+    </script>
+ 
    
     <!-- New Footer Section -->
     <div class="container-fluid bg-zinc-100 md:flex p-6 justify-evenly" style="background-color: #f7f7f5;">
