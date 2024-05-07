@@ -157,10 +157,10 @@
     </div>
 
     <!-- text below banner -->
-    <div class="pt-5 md:pt-10" style="color: #0a9744; font-family: font-gt-walsheim;">
-        <h1 class="px-5 text-xl md:text-3xl text-center font-thin" >Aktachem is the result of decades of research and learning.</h1>
-        <h1 class="px-5 text-xl md:text-3xl text-center font-thin " >Over the years, we've made many discoveries and breakthroughs that alter </h1>
-        <h1 class="px-5 text-xl md:text-3xl text-center font-thin">how we view nature, wellness, and technology. We'd like to share our knowledge with you!</h1>
+    <div class="pt-5 md:pt-10" style="color: #0a9744;">
+        <h1 class="px-5 text-xl md:text-3xl text-center " >Aktachem is the result of decades of research and learning.</h1>
+        <h1 class="px-5 text-xl md:text-3xl text-center  " >Over the years, we've made many discoveries and breakthroughs that alter </h1>
+        <h1 class="px-5 text-xl md:text-3xl text-center ">how we view nature, wellness, and technology. We'd like to share our knowledge with you!</h1>
     </div>
 
     <!-- carousel -->
@@ -177,7 +177,7 @@
             .then(data => {
                 const swiperWrapper = document.querySelector('.swiper-wrapper');
 
-                data.forEach(blog => {
+                data.blogCarousel.forEach(blog => {
 
                     const blogSlide = document.createElement('div');
                     blogSlide.classList.add('swiper-slide', 'relative', 'flex', 'flex-col', 'justify-center', 'items-center', 'bg-gray-100', 'py-10');
@@ -227,7 +227,7 @@
             const blogContainer = document.getElementById('blogContainer');
 
             // Loop through the array of blog posts
-            data.forEach(post => {
+            data.blogMore.forEach(post => {
                 // Create HTML elements for each blog post
                 const blogPost = document.createElement('div');
                 blogPost.className = 'bg-white shadow-md overflow-hidden border border-black rounded-3xl';
