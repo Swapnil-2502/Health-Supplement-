@@ -201,7 +201,7 @@
 
                     const readMore = document.createElement('a');
                     readMore.classList.add('underline', 'text-black', 'ReadMore');
-                    readMore.href = '#'; // Add the appropriate href for the read more link
+                    readMore.href = `blog.html?id=${blog.id}`; // Add the appropriate href for the read more link
                     readMore.textContent = 'Read More';
 
                     contentContainer.append(title, content, readMore);
@@ -261,7 +261,7 @@
                 readDiv.className = 'p-2';
                 const readMore = document.createElement('a');
                 readMore.className = 'underline text-black ReadMore';
-                readMore.href = post.link;
+                readMore.href = `blog.html?id=${post.id}`;
                 readMore.textContent = 'Read More';
                 readDiv.appendChild(readMore);
           
