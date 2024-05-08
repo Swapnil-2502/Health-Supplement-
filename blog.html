@@ -83,7 +83,7 @@
         <nav id="main-navbar" class="fixed z-50 flex items-center w-[100%] shadow-lg bg-white">
 
                 <div class="py-2 pl-12 ">
-                    <a href="./index.html"><img class="h-20" src="images/logo.jpeg" alt=""></a>
+                    <a href="./index.html"><img class="h-20" src="images/logo.png" alt=""></a>
                 </div>
 
                 <div class="nav-links duration-500 xl:static xl:min-h-fit absolute min-h-[50vh] left-0 top-[-575%] xl:w-auto w-full flex items-center px-5 pl-10 bg-white">
@@ -146,18 +146,8 @@
     </div>
 
     
-    <!-- banner + text -->
-    <div class="mt-24 relative">
-        <img class="w-[100%] h-60 md:h-96 object-cover" src="./images/Slider 1.jpg" alt="">
-        <div class="absolute inset-0 flex justify-center items-center text-white opacity-0 animate-fade-in delay-500">
-            <div class="text-center">
-                <h2 class="text-2xl md:text-5xl shadow-3xl font-bold font-gt-walsheim text-shadow">Blogs</h2>
-            </div>
-        </div>
-    </div>
-
-    <div id="blogComplete" class="container-fluid my-10 ">
-        
+    
+    <div id="blogComplete" class="container-fluid my-10 mt-40">
         
     </div>
     <script>
@@ -186,7 +176,7 @@
                 // Set blog image
                 const imageElement = document.createElement('div');
                 imageElement.classList.add('py-10', 'flex', 'flex-col', 'items-center', 'justify-center');
-                imageElement.innerHTML = `<img class="w-96 h-96 object-cover rounded-3xl" src="${blogPost.imageSrc}" alt="">`;
+                imageElement.innerHTML = `<img class="w-auto px-2 md:px-0 md:w-2/4 h-80 md:h-96 object-cover rounded-3xl" src="${blogPost.imageSrc}" alt="">`;
                 container.appendChild(imageElement);
         
                 // Loop through each section in the blog data

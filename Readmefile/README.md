@@ -492,3 +492,108 @@ WHY US
             </p>
         </div>
     </div>
+
+     <!-- carousel DEAD blogs --> 
+    <div class="swiper mySwiper my-14 ">
+        <div class="swiper-wrapper" style="font-family: font-gt-walsheim;">
+          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
+            <img class="w-72 md:w-96 h-60 md:h-80" src="./images/Slider 3.jpeg" alt="">
+            <div class="pt-5" style="color: #0a9744; ">
+                <h1 class="text-base md:text-3xl text-bold md:px-96" >Vitamin D3 supplementation along with Cissus quadranengularis and Calcium</h1>  
+                <p class="text-black md:px-96">These three supplements may work together to provide even greater benefits for bone health, muscle function, and overall well-being.....</p>
+                <a class="underline text-black ReadMore" href="" >Read More</a>  
+            </div>
+          </div> 
+          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
+            <img class="w-72 md:w-96 h-60 md:h-80 " src="./images/Slider 2.jpg" alt="">
+            <div class="pt-5" style="color: #0a9744;  ">
+                <h1 class="text-base md:text-3xl text-bold md:px-96" >Health benefits of Vitamin C supplementation along with Amla extract and Curcumin
+                </h1>  
+                <p class="text-black md:px-96">While there is limited research on the specific benefits of taking vitamin C, Amla extract, and curcumin together, some potential benefits include....</p>  
+                <a class="underline text-black ReadMore" href="" >Read More</a> 
+            </div>
+          </div> 
+          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
+            <img class="w-72 md:w-96 h-60 md:h-80 " src="./images/Slider 1.jpg" alt="">
+            <div class="pt-5" style="color: #0a9744; ">
+                <h1 class="text-base md:text-3xl text-bold md:px-96" >Chebula/Haritaki along with clove powder health benefits
+                </h1>  
+                <p class="text-black md:px-96">Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries....</p>  
+                <a class="underline text-black ReadMore" href="" >Read More</a> 
+            </div>
+          </div> 
+          <div class="swiper-slide relative flex flex-col justify-center items-center bg-gray-100 py-10">
+            <img class="w-72 md:w-96 h-60 md:h-80 " src="./images/Slider 1.jpg" alt="">
+            <div class="pt-5" style="color: #0a9744; ">
+                <h1 class="text-base md:text-3xl text-bold md:px-96" >Probiotics health benefits on Gut Microbiome
+
+                </h1>  
+                <p class="text-black md:px-96">Probiotics are live bacteria that offer health benefits when consumed....</p>  
+                <a class="underline text-black ReadMore" href="" >Read More</a> 
+            </div>
+          </div> 
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev absolute top-0 left-0 mt-32 md:mt-36 lg:mt-40 ml-3 md:ml-40 lg:ml-80 rounded-full bg-black p-7 text-white"></div>
+        <div class="swiper-button-next absolute top-0 right-0 mt-32 md:mt-36 lg:mt-40 mr-3 md:mr-40 lg:mr-80 rounded-full bg-black p-7 text-white"></div>
+    </div>
+
+     <!-- More Blogs DEAD blogs.html-->
+    <div class="container-fluid py-10">
+        <h1 class="text-center text-3xl" style="color: #0a9744">More Blog Articles</h1>
+        <div id="" class="grid grid-rows-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-center pt-8 px-10 md:px-40">
+            <div class="bg-white shadow-md overflow-hidden border border-black rounded-3xl">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
+                <div class="p-2 pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Vitamin D3 supplementation along with Cissus quadranengularis and Calcium
+                    </h1>   
+                </div>
+                <div class="p-2">
+                    <p class="text-black pt-4">These three supplements may work together to provide even greater benefits for bone health, muscle function, and overall well-being....</p> 
+                </div>
+                <div class="p-4">
+                    <a class="underline text-black ReadMore" href="./blog1.html" >Read More</a>  
+                </div>
+            </div>
+            <div class="bg-white shadow-md overflow-hidden border border-black rounded-3xl">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
+                <div class="p-4 pb-9  pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Health benefits of Vitamin C supplementation along with Amla extract and Curcumin
+                    </h1>  
+                    <p class="text-black pt-4">While there is limited research on the specific benefits of taking vitamin C, Amla extract, and curcumin together, some potential benefits include....</p>  
+                    <a class="underline text-black ReadMore" href="" >Read More</a> 
+                </div>
+            </div>
+            <div class="bg-white shadow-md overflow-hidden  border border-black rounded-3xl">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
+                <div class="p-4 pb-9  pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Chebula/Haritaki along with clove powder health benefits
+                    </h1>  
+                    <p class="text-black pt-4">Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries.It is a fruit of the Terminalia chebula tree...</p> 
+                    <a class="underline text-black ReadMore" href="" >Read More</a>  
+                </div>
+            </div>
+            <div class="bg-white shadow-md overflow-hidden border border-black rounded-3xl">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105" src="./images/1_whey_protein.jpg" alt="Product 1">
+                <div class="p-4 pb-9 pt-4">
+                    <h1 class="font-bold text-black" style="font-family: font-gt-walsheim;" >Probiotics health benefits on Gut Microbiome
+                    </h1>  
+                    <p class="text-black pt-4">Probiotics are live bacteria that offer health benefits when consumed.They are often referred to as "good" or "friendly" bacteria because they help....</p>  
+                    <a class="underline text-black ReadMore" href="" >Read More</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+
+    <!-- banner + text from blog.html page-->
+    <div class="mt-24 relative">
+        <img class="w-[100%] h-60 md:h-96 object-cover" src="./images/Slider 1.jpg" alt="">
+        <div class="absolute inset-0 flex justify-center items-center text-white opacity-0 animate-fade-in delay-500">
+            <div class="text-center">
+                <h2 class="text-2xl md:text-5xl shadow-3xl font-bold font-gt-walsheim text-shadow">Blogs</h2>
+            </div>
+        </div>
+    </div>
