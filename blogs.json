@@ -1,21 +1,25 @@
 {
     "blogCarousel" : [
             {
+                "id" : "1",
                 "title":"Vitamin D3 supplementation along with Cissus quadranengularis and Calcium",
                 "image":"./images/Slider 3.jpeg",
                 "content":"These three supplements may work together to provide even greater benefits for bone health, muscle function, and....."
             },
             {
+                "id" : "2",
                 "title":"Health benefits of Vitamin C supplementation along with Amla extract and Curcumin",
                 "image":"./images/Slider 2.jpg",
                 "content":"While there is limited research on the specific benefits of taking vitamin C, Amla extract, and curcumin together, some potential benefits include...."
             },
             {
+                "id" : "3",
                 "title":"Chebula/Haritaki along with clove powder health benefits",
                 "image":"./images/Slider 1.jpg",
                 "content":"Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries.It is a fruit of the Terminalia chebula...."
             },
             {
+                "id" : "4",
                 "title":"Probiotics health benefits on Gut Microbiome",
                 "image":"./images/Slider 1.jpg",
                 "content":"Probiotics are live bacteria that offer health benefits when consumed.They are often referred to as good or friendly bacteria because they help..."
@@ -24,21 +28,25 @@
 
     "blogMore" : [
         {
+            "id" : "1",
             "title":"Vitamin D3 supplementation along with Cissus quadranengularis and Calcium",
             "image":"./images/Slider 3.jpeg",
             "content":"These three supplements may work together to provide even greater benefits for bone health, muscle function, and....."
         },
         {
+            "id" : "2",
             "title":"Health benefits of Vitamin C supplementation along with Amla extract and Curcumin",
             "image":"./images/Slider 2.jpg",
             "content":"While there is limited research on the specific benefits of taking vitamin C, Amla extract, and curcumin together, some potential benefits include...."
         },
         {
+            "id" : "3",
             "title":"Chebula/Haritaki along with clove powder health benefits",
             "image":"./images/Slider 1.jpg",
             "content":"Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries.It is a fruit of the Terminalia chebula...."
         },
         {
+            "id" : "4",
             "title":"Probiotics health benefits on Gut Microbiome",
             "image":"./images/Slider 1.jpg",
             "content":"Probiotics are live bacteria that offer health benefits when consumed.They are often referred to as good or friendly bacteria because they help..."
