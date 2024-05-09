@@ -1,0 +1,108 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Amla Fruit Powder",
+        "imageSrc": "./images/Amla Fruit Powder.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 2,
+        "name": "Curcumin",
+        "imageSrc": "./images/Curcumin.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 3,
+        "name": "Black Pepper Seeds",
+        "imageSrc": "./images/Black Pepper Seeds.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 4,
+        "name": "Moringa Powder",
+        "imageSrc": "./images/Moringa Powder.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 5,
+        "name": "Pippali Roots",
+        "imageSrc": "./images/Pippali.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 6,
+        "name": "Coffee Seeds",
+        "imageSrc": "./images/Coffee Seeds.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 7,
+        "name": "Cissus quadrangularis (Veld grape)",
+        "imageSrc": "./images/Veld Grape.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 8,
+        "name": "Cestrum diurnum (Day jasmine)",
+        "imageSrc": "./images/Jasmine.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 9,
+        "name": "Solanum glaucophyllum <br> (Waxyleaf nightshade)",
+        "imageSrc": "./images/Waxy-Leaf.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 10,
+        "name": "Vitamin D3 with Cissus quadrangularis extract soft gel capsules",
+        "imageSrc": "./images/wp1.jpeg",
+        "category": "Wellness for you"
+      },
+      {
+        "id": 11,
+        "name": "Vitamin D3 with Cissus quadrangularis extract and Calcium tablets",
+        "imageSrc": "./images/wp2.jpeg",
+        "category": "Wellness for you"
+      },
+      {
+        "id": 12,
+        "name": "Vitamin C with Amla extract and Curcumin powder (orange flavor) Chewable tablets",
+        "imageSrc": "./images/wp3.jpeg",
+        "category": "Wellness for you"
+      },
+      {
+        "id": 13,
+        "name": "Probiotics Chewable tablets",
+        "imageSrc": "./images/wp4.jpeg",
+        "category": "Wellness for you"
+      },
+      {
+        "id": 14,
+        "name": "Checlov chewable tablets (SR) with Terminalia fruit and Syzygum extract",
+        "imageSrc": "./images/wp5.jpeg",
+        "category": "Wellness for you"
+      },
+      {
+        "id": 15,
+        "name": "AKTAMIN D3 ™ powder",
+        "imageSrc": "./images/vp1.jpeg",
+        "category": "Veterinary Products"
+      },
+      {
+        "id": 16,
+        "name": "Red algae",
+        "imageSrc": "./images/vp2.jpeg",
+        "category": "Veterinary Products"
+      },
+      {
+        "id": 17,
+        "name": "To Be Announced",
+        "imageSrc": "./images/vp1.jpeg",
+        "category": "Aqua Products"
+      }
+    ]
+  }
+  
+  
