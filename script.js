@@ -13,3 +13,13 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// Pause autoplay when mouse enters the carousel container
+swiper.el.addEventListener("mouseenter", function () {
+  swiper.autoplay.stop();
+});
+
+// Resume autoplay when mouse leaves the carousel container
+swiper.el.addEventListener("mouseleave", function () {
+  swiper.autoplay.start();
+});
