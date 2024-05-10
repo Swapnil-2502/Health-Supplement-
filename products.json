@@ -21,26 +21,13 @@
       {
         "id": 4,
         "name": "Curcumin",
-        "imageSrc": "./images/Curcumin.jpg",
+        "imageSrc": "./images/Curcumin.jpeg",
         "category": "Bulk Supply"
       },
       {
         "id": 5,
         "name": "Amla Fruit Powder",
         "imageSrc": "./images/Amla Fruit Powder.jpg",
-        "category": "Bulk Supply"
-      },
-      
-      {
-        "id": 6,
-        "name": "Moringa Powder",
-        "imageSrc": "./images/Moringa Powder.jpg",
-        "category": "Bulk Supply"
-      },
-      {
-        "id": 7,
-        "name": "Cissus quadrangularis (Veld grape)",
-        "imageSrc": "./images/Veld Grape.jpg",
         "category": "Bulk Supply"
       },
       {
@@ -93,7 +80,7 @@
       },
       {
         "id": 16,
-        "name": "Red algae",
+        "name": "Red Algae",
         "imageSrc": "./images/vp2.jpeg",
         "category": "Veterinary Products"
       }

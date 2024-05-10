@@ -1,4 +1,25 @@
+{
+      //   "id": 17,
+      //   "name": "To Be Announced",
+      //   "imageSrc": "./images/ap1.jpeg",
+      //   "category": "Aqua Products"
+      // }
+{
+      "id": 6,
+      "name": "Moringa Powder",
+      "imageSrc": "./images/Moringa Powder.jpg",
+      "category": "Bulk Supply"
+    },
+    {
+      "id": 7,
+      "name": "Cissus quadrangularis (Veld grape)",
+      "imageSrc": "./images/Veld Grape.jpg",
+      "category": "Bulk Supply"
+    },
+
+
 <header class="bg-slate-200 shadow-md font-serif">
+        
         <div class="container mx-auto px-4">
           <div class="flex justify-between items-center py-2">
                 <!-- Left Side - Logo and Titles -->
@@ -597,3 +618,227 @@ WHY US
             </div>
         </div>
     </div>
+
+
+    Listing all products products.html
+    <!-- <div class="container-fluid py-10  px-10 md:px-40 roboto-regular">
+        <div class="flex items-center justify-center text-center text-xl ">
+            <h1>Sort by Category:</h1>
+            
+            <select class="text-white ml-5 text-center rounded-xl border border-black border-thin p-1 myElement text-sm" id="select-product" onchange="filterProduct()">
+                <option value="All">All</option>
+                <option value="Bulk Supply">Bulk Supply</option>
+                <option value="Wellness for you">Wellness for you</option>
+                <option value="Veterinary Products">Veterinary Products</option>
+                <option value="Aqua Products">Aqua Products</option>
+            </select>
+            
+         </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-20 items-center  justify-center pt-8 px-10 md:px-20">
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Amla Fruit Powder.jpg" alt="Product 1">
+                <div class="pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 f">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="text-lg  mb-2 text-center pt-2 ">Amla Fruit Powder</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Curcumin.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 ">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="text-lg  mb-2 text-center pt-2">Curcumin</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Black Pepper Seeds.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 ">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class=" text-lg mb-2 text-center pt-2">Black Pepper Seeds</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Moringa Powder.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 ">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class=" text-lg  mb-2 text-center pt-2">Moringa Powder</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Pippali.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 ">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="text-lg  mb-2 text-center pt-2">Pippali Roots</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Coffee Seeds.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2 ">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class=" text-lg mb-2 text-center pt-2 ">Coffee Seeds</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Veld Grape.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">Cissus quadrangularis <br> (Veld grape) </h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Jasmine.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class=" text-lg mb-2 text-center pt-2">Cestrum diurnum <br>(Day jasmine)</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Bulk Supply">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/Waxy-Leaf.jpg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-fuchsia-500 pt-2 pb-2">Bulk Supply</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">Solanum glaucophyllum <br> (Waxyleaf nightshade)</h3>
+                    
+                </div>
+            </div>
+            
+            <div class="cardDisplay overflow-visible h-80" id="Wellness for you">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/wp1.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-blue-400 pt-2 pb-2 ">Wellness for you</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2 ">Vitamin D3 with Cissus quadrangularis extract soft gel capsules</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Wellness for you">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/wp2.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-blue-400 pt-2 pb-2">Wellness for you</p>
+                    </div>
+                    
+                    <h3 class="text-lg  mb-2 text-center pt-2">Vitamin D3 with Cissus quadrangularis extract and Calcium tablets</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Wellness for you">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/wp3.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-blue-400 pt-2 pb-2 ">Wellness for you</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">Vitamin C with Amla extract and Curcumin powder (orange flavor) Chewable tablets</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Wellness for you">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/wp4.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-blue-400 pt-2 pb-2 ">Wellness for you</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">Probiotics Chewable tablets</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Wellness for you">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/wp5.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-blue-400 pt-2 pb-2 ">Wellness for you</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2 ">Checlov chewable tablets (SR) with Terminalia fruit and Syzygum extract</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Veterinary Products">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/vp1.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-green-400 pt-2 pb-2">Veterinary Products</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">AKTAMIN D3 ™ powder</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Veterinary Products">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/vp2.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-green-400 pt-2 pb-2 ">Veterinary Products</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">Red algae</h3>
+                    
+                </div>
+            </div>
+
+            <div class="cardDisplay overflow-visible h-80" id="Aqua Products">
+                <img class="w-full h-56 object-cover object-center transition-transform duration-300 transform hover:scale-105 rounded-3xl" src="./images/ap1.jpeg" alt="Product 1">
+                <div class=" pb-9 h-auto pt-4">
+                    <div>
+                        <p class="text-white text-center items-center rounded-3xl bg-yellow-400 pt-2 pb-2">Aqua Products</p>
+                    </div>
+                    
+                    <h3 class="text-lg mb-2 text-center pt-2">To Be Announced</h3>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div> -->
