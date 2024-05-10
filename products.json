@@ -2,38 +2,39 @@
     "products": [
       {
         "id": 1,
-        "name": "Amla Fruit Powder",
-        "imageSrc": "./images/Amla Fruit Powder.jpg",
+        "name": "Coffee Seeds",
+        "imageSrc": "./images/Coffee Seeds.jpg",
         "category": "Bulk Supply"
       },
       {
         "id": 2,
-        "name": "Curcumin",
-        "imageSrc": "./images/Curcumin.jpg",
-        "category": "Bulk Supply"
-      },
-      {
-        "id": 3,
         "name": "Black Pepper Seeds",
         "imageSrc": "./images/Black Pepper Seeds.jpg",
         "category": "Bulk Supply"
       },
       {
-        "id": 4,
-        "name": "Moringa Powder",
-        "imageSrc": "./images/Moringa Powder.jpg",
-        "category": "Bulk Supply"
-      },
-      {
-        "id": 5,
+        "id": 3,
         "name": "Pippali Roots",
         "imageSrc": "./images/Pippali.jpg",
         "category": "Bulk Supply"
       },
       {
+        "id": 4,
+        "name": "Curcumin",
+        "imageSrc": "./images/Curcumin.jpg",
+        "category": "Bulk Supply"
+      },
+      {
+        "id": 5,
+        "name": "Amla Fruit Powder",
+        "imageSrc": "./images/Amla Fruit Powder.jpg",
+        "category": "Bulk Supply"
+      },
+      
+      {
         "id": 6,
-        "name": "Coffee Seeds",
-        "imageSrc": "./images/Coffee Seeds.jpg",
+        "name": "Moringa Powder",
+        "imageSrc": "./images/Moringa Powder.jpg",
         "category": "Bulk Supply"
       },
       {
@@ -50,7 +51,7 @@
       },
       {
         "id": 9,
-        "name": "Solanum glaucophyllum <br> (Waxyleaf nightshade)",
+        "name": "Solanum glaucophyllum (Waxyleaf nightshade)",
         "imageSrc": "./images/Waxy-Leaf.jpg",
         "category": "Bulk Supply"
       },
@@ -95,14 +96,6 @@
         "name": "Red algae",
         "imageSrc": "./images/vp2.jpeg",
         "category": "Veterinary Products"
-      },
-      {
-        "id": 17,
-        "name": "To Be Announced",
-        "imageSrc": "./images/vp1.jpeg",
-        "category": "Aqua Products"
       }
     ]
   }
-  
-  
