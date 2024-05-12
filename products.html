@@ -173,8 +173,8 @@
             <select class="text-white ml-5 text-center rounded-xl border border-black border-thin p-1 myElement text-sm" id="select-product" onchange="filterProduct()">
                 <option value="All">All</option>
                 <option value="Bulk Supply">Bulk Supply</option>
-                <option value="Wellness for you">Wellness for you</option>
-                <option value="Veterinary Products">Veterinary Products</option>
+                <option value="Health & Fitness">Health & Fitness</option>
+                <option value="Veterinary Health">Veterinary Health</option>
                 <!-- <option value="Aqua Products">Aqua Products</option> -->
             </select>
             
@@ -207,13 +207,13 @@
                 const categoryTag = document.createElement('p');
                 categoryTag.classList.add('text-white', 'text-center', 'items-center', 'rounded-3xl', 'pt-2', 'pb-2', 'f');
                 if(product.category === "Bulk Supply"){
-                    categoryTag.classList.add('bg-fuchsia-500')
+                    categoryTag.style.backgroundColor = '#0a9744'
                 }
-                else if(product.category === "Wellness for you"){
-                    categoryTag.classList.add('bg-blue-400')
+                else if(product.category === "Health & Fitness"){
+                    categoryTag.style.backgroundColor = '#65b840'
                 }
-                else if(product.category === "Veterinary Products"){
-                    categoryTag.classList.add('bg-green-400')
+                else if(product.category === "Veterinary Health"){
+                    categoryTag.classList.add('bg-yellow-500')
                 }
                 else if(product.category === "Aqua Products"){
                     categoryTag.classList.add('bg-yellow-400')
