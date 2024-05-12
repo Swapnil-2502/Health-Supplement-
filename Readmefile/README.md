@@ -1,3 +1,117 @@
+ <div class="carousel-container md:hidden px-2 py-2 roboto-regular">
+        
+        <div class="carousel gap-x-10">
+            
+          <!-- Carousel items -->
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Coffee Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl">Coffee Seeds
+                </h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Black Pepper Seeds.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl">Black Pepper Seeds</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Pippali.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl">Pippali Roots</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Curcumin.jpeg" alt="">
+                </div>
+               
+                <h3 class="pt-4 text-base md:text-xl">Curcumin</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center ">
+                <div class="w-48 h-48 overflow-hidden ">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Amla Fruit Powder.jpg" alt="">
+                </div>
+               
+                <h3 class="pt-4  text-base md:text-xl">Amla Fruit Powder </h3>
+            </div>
+          </div>
+          <!-- <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Moringa Powder.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl">Moringa Powder</h3>
+            </div>
+          </div> -->
+          <!-- <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Veld Grape.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl text-center">Cissus quadrangularis
+                </h3>
+                <h3 class="text-base md:text-xl text-center">(Veld grape)</h3>
+            </div>
+          </div> -->
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Jasmine.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl text-center">Cestrum diurnum 
+                </h3>
+                <h3 class="text-base md:text-xl text-center">(Day jasmine)</h3>
+            </div>
+          </div>
+          <div class="carousel-item p-2">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-48 h-48 overflow-hidden">
+                    <img class="w-full h-full object-cover rounded-lg" src="./images/Waxy-Leaf.jpg" alt="">
+                </div>
+                <h3 class="pt-4 text-base md:text-xl text-center">Solanum glaucophyllum
+                </h3>
+                <h3 class="text-base md:text-xl text-center">(Waxyleaf nightshade)</h3>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Smooth scrolling behavior
+            document.querySelectorAll('.carousel-item').forEach(item => {
+              item.addEventListener('click', function() {
+                this.scrollIntoView({ behavior: 'smooth' });
+              });
+            });
+          });
+          
+    </script>
+
+
+
+Home page slider of products
+
+//document.addEventListener("DOMContentLoaded", function () {
+            // Smooth scrolling behavior
+        //   document.querySelectorAll('.carousel-item').forEach(item => {
+        //      item.addEventListener('click', function() {
+        //        this.scrollIntoView({ behavior: 'smooth' });
+        //      });
+        //    });
+        //  });
+
 {
       //   "id": 17,
       //   "name": "To Be Announced",
