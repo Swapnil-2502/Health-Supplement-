@@ -46,43 +46,43 @@
         "id": 10,
         "name": "Vitamin D3 with Cissus quadrangularis extract soft gel capsules",
         "imageSrc": "./images/wp1.jpeg",
-        "category": "Wellness for you"
+        "category": "Health & Fitness"
       },
       {
         "id": 11,
         "name": "Vitamin D3 with Cissus quadrangularis extract and Calcium tablets",
         "imageSrc": "./images/wp2.jpeg",
-        "category": "Wellness for you"
+        "category": "Health & Fitness"
       },
       {
         "id": 12,
         "name": "Vitamin C with Amla extract and Curcumin powder (orange flavor) Chewable tablets",
         "imageSrc": "./images/wp3.jpeg",
-        "category": "Wellness for you"
+        "category": "Health & Fitness"
       },
       {
         "id": 13,
         "name": "Probiotics Chewable tablets",
         "imageSrc": "./images/wp4.jpeg",
-        "category": "Wellness for you"
+        "category": "Health & Fitness"
       },
       {
         "id": 14,
         "name": "Checlov chewable tablets (SR) with Terminalia fruit and Syzygum extract",
         "imageSrc": "./images/wp5.jpeg",
-        "category": "Wellness for you"
+        "category": "Health & Fitness"
       },
       {
         "id": 15,
         "name": "AKTAMIN D3 ™ powder",
         "imageSrc": "./images/vp1.jpeg",
-        "category": "Veterinary Products"
+        "category": "Veterinary Health"
       },
       {
         "id": 16,
         "name": "Red Algae",
         "imageSrc": "./images/vp2.jpeg",
-        "category": "Veterinary Products"
+        "category": "Veterinary Health"
       }
     ]
   }
