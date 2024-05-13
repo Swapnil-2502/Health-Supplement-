@@ -4,7 +4,7 @@
         {
             "id" : "1",
             "title": "Vitamin D3 supplementation along with Cissus quadranengularis and Calcium",
-            "imageSrc": "./images/Slider 3.jpeg",
+            "imageSrc": "./images/Vitamin D3.jpeg",
             "sections": [
                 {
                     "title": "Vitamin D3",
@@ -57,7 +57,7 @@
         {
             "id" : "2",
             "title": "Health benefits of Vitamin C supplementation along with Amla extract and Curcumin",
-            "imageSrc": "./images/Slider 2.jpg",
+            "imageSrc": "./images/Vitamin C.jpeg",
             "sections": [
                 {
                     "title": "Vitamin D3",
@@ -115,7 +115,7 @@
             
             "id" : "3",
             "title": "Chebula/Haritaki along with clove powder health benefits ",
-            "imageSrc": "./images/Slider 1.jpg",
+            "imageSrc": "./images/Chebula-Haritaki .jpeg",
             "sections": [
                 {
                     "para":"Chebula, also known as Haritaki, is a medicinal herb that has been used in Ayurvedic medicine for centuries. It is a fruit of the Terminalia chebula tree, which is native to India and Southeast Asia. Clove powder is a spice that is made from the dried flower buds of the Syzygium aromaticum tree. It is a common ingredient in many cuisines around the world."
@@ -150,7 +150,7 @@
             
             "id" : "4",
             "title": "Probiotics health benefits on Gut Microbiome",
-            "imageSrc": "./images/Slider 1.jpg",
+            "imageSrc": "./images/Probiotics.jpeg",
             "sections": [
                 {
                     "para":"Probiotics are live bacteria that offer health benefits when consumed. They are often referred to as \"good\" or \"friendly\" bacteria because they help keep your gut healthy. The gut microbiome is the community of trillions of bacteria that live in your intestines. These bacteria play an important role in digestion, immune function, and overall health."
