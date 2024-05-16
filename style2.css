@@ -16,7 +16,6 @@
   font-style: normal;
 }
 
-
 .is-sticky {
   /* Add styles for sticky navbar here */
   transition: top 0.3s ease-in-out;
@@ -41,6 +40,10 @@
   height: 250px;
 }
 
+.text-shadow {
+  text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
 .social-icon {
   color: #3c434d; /* Default color */
   transition: color 0.3s; /* Smooth transition effect */
@@ -49,6 +52,42 @@
 .social-icon:hover {
   color: #65b840; /* Green color on hover */
 }
+
+.myElement{
+  background-color: #3c434d; /* Default background color */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.myElement:hover {
+  background-color: #0a9744; /* Background color on hover */
+}
+
+.carousel-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent items from wrapping */
+}
+
+.carousel-item {
+  display: inline-block; /* Display items in a row */
+  width: calc(50% - 10px);
+  margin-right: 20px; /* Display two items at a time */
+  /* Adjust width as needed based on the number of items you want to display */
+}
+
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1.5s ease forwards;
+}
+
 
 @keyframes blink {
   0% {

@@ -79,13 +79,13 @@
         </div>
             
 
-        <nav id="main-navbar" class="fixed z-50 flex items-center w-[100%] shadow-lg bg-white">
+        <nav id="main-navbar" class="fixed z-50 flex items-center justify-evenly w-[100%] shadow-lg bg-white">
 
-                <div class="py-2 pl-12 ">
+                <div class="py-2 pl-8">
                     <a href="./index.html"><img class="h-20" src="images/logo.png" alt=""></a>
                 </div>
 
-                <div class="nav-links duration-500 xl:static xl:min-h-fit absolute min-h-[50vh] left-0 top-[-575%] xl:w-auto w-full flex items-center px-5 pl-10 bg-white">
+                <div class="nav-links duration-500 xl:static xl:min-h-fit absolute min-h-[55vh] left-0 top-[-575%] xl:w-auto w-full flex items-center px-5 pl-10 bg-white">
                     <ul class="flex xl:items-center xl:flex-row flex-col xl:gap-[2vw] gap-8 roboto-regular">
                         <li><a href="./index.html" class="hover:underline
                             ">Home</a></li>
@@ -96,7 +96,7 @@
                         <li><a href="./quality&safety.html" class="hover:underline
                             ">Quality & Safety</a></li>
                         <li><a href="./blogs.html" class="hover:underline
-                            ">Our Blog</a></li>
+                            ">Our Blogs</a></li>
                         <li><a href="./contactus.html" class="hover:underline
                             ">Contact Us</a></li>
                         <li><a href="./wholesaleform.html" class="border-spacing-44">
@@ -150,9 +150,39 @@
         </a>
     </div>
 
+    <!-- Heading -->
+    <div class="text-center mt-32 mb-5">
+        <h2 class="text-2xl md:text-5xl roboto-bold">Apply for wholesale
+        </h2>
+    </div>
     
-    <!-- Contact Form -->
-    <div id="form1" class="container w-[80%] form-container mx-auto py-5 mt-24">
+    <!-- Contact Form & Image -->
+    <div class="flex flex-col md:flex-row gap-10 md:gap-5 px-5 md:px-20 mt-10 mb-5">
+        <div>
+            <img class="rounded-3xl object-cover" src="./images/wholesale.jpeg" alt="">
+        </div>
+        <div>
+            <div id="form1" class="container w-[80%] form-container mx-auto">
+                <form id="form1" action="/action_page.php">
+                  <label for="fname">Full Name</label>
+                  <input type="text" id="fname" name="fullname" placeholder="Full Name">
+              
+                  <label for="lname">Mobile Number</label>
+                  <input type="text" id="mname" name="mname" placeholder="Mobile Number">
+              
+                  <label for="country">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Email">
+              
+                  <label for="subject">Name of products</label>
+                  <textarea id="subject" name="subject" placeholder="Write name of products.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>  
+    </div>
+
+    <!-- <div id="form1" class="container w-[80%] form-container mx-auto py-5 mt-24">
         <form id="form1" action="/action_page.php">
           <label for="fname">Full Name</label>
           <input type="text" id="fname" name="fullname" placeholder="Full Name">
@@ -168,7 +198,7 @@
       
           <input type="submit" value="Submit">
         </form>
-    </div>
+    </div> -->
 
     <!-- New Footer Section -->
     <div class="container-fluid bg-zinc-100 md:flex p-6 justify-evenly" style="background-color: #f7f7f5;">
