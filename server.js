@@ -2,6 +2,7 @@ const express = require('express');
 const http = require('http');
 const path = require('path');
 const nodemailer = require('nodemailer');
+require('dotenv').config();
 
 const app = express();
 const server = http.Server(app);
@@ -24,8 +25,8 @@ app.post("/send_email", function(req,res){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'hajareswapnil.2502@gmail.com',
-            pass: 'vnddrujectacaqsg'
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS
         }
     })
 
