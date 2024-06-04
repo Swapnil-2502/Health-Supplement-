@@ -208,11 +208,10 @@
   
     </div>
 
-
-    
+  
     <!-- Contact Form -->
-    <!-- <div id="form1" class="container w-[80%] form-container mx-auto py-5">
-        <form id="form1" onsubmit="sendemail();reset();return false;">
+    <div id="form1" class="container w-[80%] form-container mx-auto py-5">
+        <form id="contactForm" action="/send_email" method="post">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="fname" placeholder="First Name">
       
@@ -231,27 +230,10 @@
           <input type="submit" value="Submit">
         </form>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendemail() {
-            Email.send({
-                Host : "smtp.elasticemail.com",
-                Username : "hajareswapnil.2502@gmail.com",
-                Password : "FA0E44DF994CAC66AC97A1A5EA26046FB724",
-                To : 'hajareswapnil.2502@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "Contact Details",
-                Body : "Name: " + document.getElementById('fname').value + " " + document.getElementById('lname').value +
-                        "<br> Country: " + document.getElementById('cname').value +
-                        "<br> Subject: " + document.getElementById('subject').value
-            }).then(
-              message => alert("message sent successfully")
-            );
-        }
-    </script> -->
+    
 
     <!-- Contact Form2  using web3forms -->
-    <div id="form1" class="container w-[80%] form-container mx-auto py-5">
+    <!-- <div id="form1" class="container w-[80%] form-container mx-auto py-5">
         <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="37a020a4-a959-45fe-8a8b-60c8e3c025ca">
           <label for="fname">First Name</label>
@@ -271,7 +253,7 @@
       
           <input type="submit" value="Submit">
         </form>
-    </div>
+    </div> -->
 
     <!-- New Footer Section -->
     <div class="container-fluid bg-zinc-100 md:flex p-6 justify-evenly" style="background-color: #f7f7f5;">
