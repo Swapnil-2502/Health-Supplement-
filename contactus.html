@@ -230,6 +230,34 @@
           <input type="submit" value="Submit">
         </form>
     </div>
+    <script>
+       document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      var formData = new FormData(this);
+      var jsonData = {};
+      formData.forEach((value, key) => jsonData[key] = value);
+
+      fetch('/send_email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(jsonData)
+      })
+      .then(response => response.json())
+      .then(data => {
+        alert(data.message); // Display alert with the message from the server
+        if (data.message === 'Email sent successfully') {
+          document.getElementById('contactForm').reset();
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Error while sending the email');
+      });
+    });
+    </script> 
     
 
     <!-- Contact Form2  using web3forms -->
