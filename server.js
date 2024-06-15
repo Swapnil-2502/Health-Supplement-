@@ -107,6 +107,8 @@ app.post("/send_email_wholesale", function(req,res){
     }
 })
 
-server.listen(port, function(){
-    console.log("Starting Server on port: " + port)
-})
+module.exports = app;
+
+// server.listen(port, function(){
+//     console.log("Starting Server on port: " + port)
+// })
